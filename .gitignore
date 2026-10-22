@@ -1,0 +1,7 @@
+﻿structures/
+data/
+data_pdac/
+.ipynb_checkpoints/
+*.zip
+*.cct
+*.cbt
