@@ -1,0 +1,17 @@
+Genes surviving the 3-layer join (rows with RNA, protein and mutation stats): 2,532
+RNA-protein sign concordance, all genes: 65.2%  (1,650 concordant / 882 discordant)
+Concordance among genes significant in BOTH RNA and protein: 91.8% (n=170)
+Concordance in top 15: 93%  (discordant: ERBB4)
+Layer sizes: RNA=311  protein=603  mutation=29
+Venn regions: RNA only=136; Protein only=431; Mutation only=16; RNA+Protein=164; RNA+Mutation=5; Protein+Mutation=2; All three=6
+Genes supported in all three layers: CDKN2A, LRP1B, MUC16, MUC4, MUC5AC, MUC5B
+p-value columns used: RNA=yes, protein=yes
+KRAS    rank=  279  RNA=+0.633  prot=+0.196  mut -log10p=260.76  concordant=True  score=0.726
+TP53    rank=  913  RNA=+0.034  prot=+0.334  mut -log10p=176.57  concordant=True  score=0.554
+CDKN2A  rank=   36  RNA=+1.204  prot=+0.643  mut -log10p=28.40  concordant=True  score=0.915
+SMAD4   rank=  458  RNA=-0.641  prot=-0.093  mut -log10p=22.90  concordant=True  score=0.669
+ERBB4   rank=    4  RNA=-2.565  prot=+1.329  mut -log10p=0.77  concordant=False  score=0.973
+CEL     rank=   11  RNA=-6.093  prot=-2.712  mut -log10p=0.38  concordant=True  score=0.954
+POSTN   rank=    8  RNA=+1.743  prot=+1.353  mut -log10p=1.26  concordant=True  score=0.971
+TNS4    rank=    3  RNA=+4.351  prot=+1.234  mut -log10p=0.77  concordant=True  score=0.975
+MUC16   rank=    6  RNA=+3.162  prot=+0.922  mut -log10p=6.64  concordant=True  score=0.971
