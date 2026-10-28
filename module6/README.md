@@ -40,7 +40,14 @@ by ancestry : {'AFR': 500, 'EAS': 500, 'EUR': 500, 'SAS': 489, 'AMR': 347}
 Harmonization: 22/22 variants found, 13 flipped, 0 dropped. Cross-validated AUC: age 0.562; age + PRS 0.618 (+0.056).
 
 ## PDAC extension (Part I disease)
-The Canvas panel contains only Alzheimer's loci, so I built a matching PDAC dataset. The score is PGS000725 (PRS_Pancreas; Jia et al., *JNCI Cancer Spectr* 2020; 22 variants, European-derived). Genotypes for the same 2,336 samples come from 1000 Genomes phase 3 via Ensembl. ALT is the non-REF allele actually observed in 1000 Genomes. 21/22 variants were retrieved; rs16986825 was not retrieved because of server errors. EUR effect-allele frequencies match the PGS-reported frequencies within ±0.035. No AUC or calibration was computed, because no PDAC labels exist and simulating one from the same score would be circular.
+The Canvas panel contains only Alzheimer's loci, so I built a matching PDAC dataset. The score is PGS000725 (PRS_Pancreas; Jia et al., *JNCI Cancer Spectr* 2020; 22 variants, European-derived). Genotypes for the same 2,336 samples come from 1000 Genomes phase 3 via Ensembl. ALT is the non-REF allele actually observed in 1000 Genomes. 21/22 variants were retrieved; rs16986825 was not retrieved because of server errors. EUR effect-allele frequencies match the PGS-reported frequencies within ±0.035. Harmonization: 21 used, 12 flipped, 0 dropped, 1 not in panel.
+
+| | EUR | AFR | EAS | SAS | AMR |
+|---|---|---|---|---|---|
+| Mean PDAC PRS (SD) | −0.26 | 1.33 | −0.26 | −0.62 | −0.30 |
+| % above pooled top-10% cutoff | 1.2 | 43.4 | 0.2 | 0.0 | 2.9 |
+
+No AUC or calibration was computed, because no PDAC labels exist and simulating one from the same score would be circular.
 
 ## Reproduce
 Requires Python 3.11 with numpy, pandas, scipy, matplotlib and scikit-learn.
