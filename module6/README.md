@@ -1,6 +1,6 @@
-﻿# Module 6 â€” PRS Portability on Real Data
+# Module 6 — PRS Portability on Real Data
 
-BIOT 6900 Â· AI-Powered Biotech Workflows Â· Fall 2026 Â· Computational Lab 6 Â· Mohammed Sharukh
+BIOT 6900 · AI-Powered Biotech Workflows · Fall 2026 · Computational Lab 6 · Mohammed Sharukh
 
 ## What this is
 This module applies a published polygenic risk score (PRS) to real 1000 Genomes phase 3 genotypes for 2,336 people in five ancestry groups (EUR, AFR, EAS, SAS, AMR). It measures how the score's distribution, a single top-10% cutoff, discrimination (AUC) and calibration change across ancestries.
@@ -35,12 +35,12 @@ by ancestry : {'AFR': 500, 'EAS': 500, 'EUR': 500, 'SAS': 489, 'AMR': 347}
 |---|---|---|---|---|---|
 | % above pooled top-10% cutoff | 7.8 | 27.8 | 2.2 | 4.3 | 6.3 |
 | AUC (simulated phenotype) | 0.672 | 0.493 | 0.575 | 0.611 | 0.555 |
-| Predicted âˆ’ observed risk (EUR-fitted) | +0.000 | +0.044 | âˆ’0.034 | +0.017 | +0.028 |
+| Predicted − observed risk (EUR-fitted) | +0.000 | +0.044 | −0.034 | +0.017 | +0.028 |
 
 Harmonization: 22/22 variants found, 13 flipped, 0 dropped. Cross-validated AUC: age 0.562; age + PRS 0.618 (+0.056).
 
 ## PDAC extension (Part I disease)
-The Canvas panel contains only Alzheimer's loci, so I built a matching PDAC dataset. The score is PGS000725 (PRS_Pancreas; Jia et al., *JNCI Cancer Spectr* 2020; 22 variants, European-derived). Genotypes for the same 2,336 samples come from 1000 Genomes phase 3 via Ensembl. ALT is the non-REF allele actually observed in 1000 Genomes. 21/22 variants were retrieved; rs16986825 was not retrieved because of server errors. EUR effect-allele frequencies match the PGS-reported frequencies within Â±0.035. No AUC or calibration was computed, because no PDAC labels exist and simulating one from the same score would be circular.
+The Canvas panel contains only Alzheimer's loci, so I built a matching PDAC dataset. The score is PGS000725 (PRS_Pancreas; Jia et al., *JNCI Cancer Spectr* 2020; 22 variants, European-derived). Genotypes for the same 2,336 samples come from 1000 Genomes phase 3 via Ensembl. ALT is the non-REF allele actually observed in 1000 Genomes. 21/22 variants were retrieved; rs16986825 was not retrieved because of server errors. EUR effect-allele frequencies match the PGS-reported frequencies within ±0.035. No AUC or calibration was computed, because no PDAC labels exist and simulating one from the same score would be circular.
 
 ## Reproduce
 Requires Python 3.11 with numpy, pandas, scipy, matplotlib and scikit-learn.
