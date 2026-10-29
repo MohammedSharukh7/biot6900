@@ -23,7 +23,7 @@ protein-language-model triage and AlphaFold structure assessment to a ranked, st
 | `pd1/fig1_integration.png`, `pd1/fig2_venn.png` | generated | Required figures |
 | `BIOT6900_Assignment2_PDAC.ipynb`, `targets_pdac.csv` | Lab 2 | Multi-omics integration and ranked table |
 | `BIOT6900_Module3_Assignment.ipynb`, `targets_pdac_w3.csv` | Lab 3 | ESM C tractability priors and re-ranked table |
-| `module4/BIOT6900_Module4_Assignment.ipynb` + outputs | Lab 4 | AlphaFold pLDDT/PAE, RMSD vs 2R4B/1F6W, fpocket |
+| `BIOT6900_Module4_Assignment.ipynb`, `structure_assessment_pdac.csv` | Lab 4 | AlphaFold pLDDT/PAE, RMSD vs 2R4B/1F6W, fpocket |
 
 **Note on file names:** the assignment template refers to `targets_ad.csv`. This project's equivalent is
 `targets_pdac.csv`, because the disease is PDAC.

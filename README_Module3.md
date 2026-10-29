@@ -47,8 +47,9 @@ required for this assignment.
   Run All)
 - `targets_pdac_w3.csv` — re-ranked target table (15 targets), columns: gene, week2_score, p_sm,
   p_ab, nearest_drug_targets, final, rank
-- `PDAC_Module3_Report.pdf` — 3–4 page written report (re-ranking justification, modality
-  biology, validation interpretation, anchor variant interpretation, limitations)
+- `PDAC_Module3_Report.pdf` — written report (re-ranking justification, modality
+  biology, validation interpretation, anchor variant interpretation, limitations), plus an addendum on
+  disease/data choice and discordance/limitations
 - `README_Module3.md` — this file
 
 ## What didn't work / notes
@@ -57,3 +58,6 @@ required for this assignment.
   was found as a separate attachment (`BIOT6900_Module3_DataPack.zip`, 60.8 MB) linked within
   the Module 3 Assignment page itself, rather than alongside the lecture/notebook files.
 - No other issues — all steps ran without modification beyond the required TODO completions.
+
+## Report update (October 29, 2026)
+Per the instructor's announcement, an addendum was appended to the report PDF covering **disease and data choice with biological interpretation** and **discordance and limitations**. The analysis is unchanged.

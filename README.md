@@ -17,6 +17,16 @@
 
 ---
 
+# Module 1 - Environment setup and lab guide (Parts A-C)
+
+**What I did:** set up the course environment on Windows (plain Python 3.11 with pip, Jupyter launched with `python -m notebook`) and completed the Module 1 lab guide, Parts A, B and C, in `module1_setup.ipynb`.
+
+**Data sources:** none beyond what the lab guide provides.
+
+**What did not work:** conda-only tools such as fpocket cannot be installed with pip on Windows; for later modules these were run on the Northeastern Explorer cluster.
+
+---
+
 # Module 2 - Assignment 2: Independent Multi-Omics Target Discovery (PDAC)
 
 ## What I did

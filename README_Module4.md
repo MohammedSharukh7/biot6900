@@ -16,6 +16,15 @@ pocket. CEL was chosen as a pancreatic lipase with one of the highest Module 3
 small-molecule scores (p_sm = 0.72) — a catalytic enzyme, and so a clean test of
 whether sequence-based tractability predicts a real structural pocket.
 
+## Data sources
+
+All open access:
+- Module 2 targets: CPTAC-PDAC via LinkedOmics, https://www.linkedomics.org/data_download/CPTAC-PDAC/
+- AlphaFold Protein Structure Database: AF-Q15303-F1 (ERBB4) and AF-P19835-F1 (CEL), models and PAE files, https://alphafold.ebi.ac.uk
+- RCSB Protein Data Bank: 2R4B (ERBB4 kinase with covalent inhibitor) and 1F6W (CEL catalytic domain), https://www.rcsb.org
+- UniProt entries Q15303 and P19835 for sequences and domain annotation, https://www.uniprot.org
+- Module 3 small-molecule priors (p_sm) from the course data pack
+
 ## Files
 
 - `BIOT6900_Module4_Assignment.ipynb` — the full analysis, Steps 1–7
@@ -53,3 +62,6 @@ highest-scoring pocket (0.925) does not correspond to its catalytic site; the
 pocket containing Ser214 and His455 ranks 4th with a druggability score of only
 0.135, illustrating that fpocket scores can underrate open, solvent-exposed
 catalytic sites.
+
+## Report update (October 29, 2026)
+Per the instructor's announcement, an addendum was appended to the report PDF covering **disease and data choice with biological interpretation** and **discordance and limitations**. The analysis is unchanged.

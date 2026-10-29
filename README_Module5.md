@@ -4,6 +4,15 @@
 **Gene:** CYP2C19 (self-selected — no allocation was available on Canvas)
 **AlphaGenome Atlas:** run live (70 variants scored, 0 failures)
 
+## What I did
+
+Fetched every ClinVar variant in CYP2C19, audited which predictors could score each consequence class, applied a pharmacogene-appropriate frequency filter, attempted CADD calibration, classified the VUS, ran the AlphaGenome Atlas, and interpreted a discordant variant (CYP2C19*2).
+
+## Data sources
+
+- ClinVar variants and annotations (CADD on hg19, REVEL, AlphaMissense, gnomAD allele frequencies) via MyVariant.info, https://myvariant.info (open access)
+- AlphaGenome Atlas via the AlphaGenome API (free non-commercial key, held in an environment variable)
+
 ## Files
 
 - `BIOT6900_Module5_Part3_Assignment.ipynb` — the full analysis, Q1–Q6
@@ -46,3 +55,6 @@ variable and does not appear anywhere in the notebook.
   Jupyter from a new PowerShell window fixed it.
 - A `tqdm`/`ipywidgets` IProgress warning appears during the Atlas query. It is
   cosmetic and does not affect results.
+
+## Report update (October 29, 2026)
+Per the instructor's announcement, an addendum was appended to the report PDF covering **disease and data choice with biological interpretation** and **discordance and limitations**. The analysis is unchanged.
