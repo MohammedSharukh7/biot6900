@@ -5,4 +5,6 @@ data_pdac/
 *.zip
 *.cct
 *.cbt
-data/
+
+neo4j_credentials.txt
+Neo4j-*.txt

@@ -1,0 +1,65 @@
+name,kind,doid,group,gwas_p,mut_p,rna_lfc,prot_lfc,m2_score,m2_rank,concordant,druggability,ensembl,hpo,reactome,status
+Pancreatic ductal adenocarcinoma,disease,DOID:3498,,,,,,,,,,,,,
+COL11A1,gene,,multiomics_top15,,0.05455918515037665,2.787324725377756,1.4480511803650202,0.9842022116903631,1.0,True,0.2,ENSG00000060718,,,
+MUC5B,gene,,multiomics_top15,,0.003169559010424169,2.071321799930136,1.224256091298198,0.9763691416535016,2.0,True,0.2,ENSG00000117983,,,
+TNS4,gene,,multiomics_top15,,0.16952388882473207,4.351477666744719,1.23397634132062,0.9750526592943654,3.0,True,0.2,ENSG00000131746,,,
+ERBB4,gene,,multiomics_top15,,0.16952388882473207,-2.5652611466473534,1.3286040730398554,0.9729462875197472,4.0,False,0.8,ENSG00000178568,,,
+PLIN4,gene,,multiomics_top15,,0.16952388882473207,-3.068217527084252,-1.1971686299824924,0.9725513428120064,5.0,True,0.2,ENSG00000167676,,,
+MUC16,gene,,multiomics_top15,,2.313875813422981e-07,3.1622462575101444,0.9222155352843622,0.9714323328067404,6.0,True,0.2,ENSG00000181143,,,
+FN1,gene,,multiomics_top15,,0.05455918515037665,1.826157302620583,1.2632892017803703,0.9714323328067402,7.0,True,0.2,ENSG00000115414,,,
+POSTN,gene,,multiomics_top15,,0.05455918515037665,1.7431415054990875,1.3531902594416607,0.971169036334913,8.0,True,0.2,ENSG00000133110,,,
+NOS1,gene,,multiomics_top15,,0.16952388882473207,-1.9157871045783148,-1.252301936436833,0.9647840968931016,9.0,True,0.2,ENSG00000089250,,,
+MUC5AC,gene,,multiomics_top15,,0.0006019670105373476,3.7508089458272416,0.8148578819347563,0.961756187467088,10.0,True,0.5,ENSG00000215182,,,
+CEL,gene,,multiomics_top15,,0.414218006183195,-6.092899450377264,-2.7116748420430845,0.9535939968404424,11.0,True,0.2,ENSG00000170835,,,
+BRSK2,gene,,multiomics_top15,,0.414218006183195,-2.975514587975833,-1.8065375329681608,0.9484597156398102,12.0,True,0.2,ENSG00000174672,,,
+MAT1A,gene,,multiomics_top15,,0.414218006183195,-2.8319768275592816,-1.966331910497324,0.9483280674038967,13.0,True,0.2,ENSG00000151224,,,
+KRT6A,gene,,multiomics_top15,,0.414218006183195,5.211624352979394,1.464940531279833,0.947801474460242,14.0,True,0.2,ENSG00000205420,,,
+FRAS1,gene,,multiomics_top15,,0.16952388882473207,-1.2407721317109957,-1.1552926489009891,0.9451685097419692,15.0,True,0.2,ENSG00000138759,,,
+CDKN2A,gene,,driver,,3.9947518909932277e-29,1.2042985849032757,0.6426287273371791,0.9148235913638756,36.0,True,0.2,ENSG00000147889,,,
+KRAS,gene,,driver,,1.746363848687062e-261,0.6328324480973002,0.1958061932409656,0.7260400210637177,279.0,True,1.0,ENSG00000133703,,,
+SMAD4,gene,,driver,,1.2708106454403385e-23,-0.6408202548948978,-0.0929610554476383,0.669431279620853,458.0,True,0.2,ENSG00000141646,,,
+TP53,gene,,driver,,2.68371113577068e-177,0.0343907433198289,0.3336037653861439,0.5538441284886781,913.0,True,0.5,ENSG00000141510,,,
+EGFR,gene,,driver,,0.7589293378979314,0.0196075064984366,0.0976733106113165,0.2224196945760926,2444.0,True,1.0,ENSG00000146648,,,
+NOC2L,gene,,gwas,8.36e-14,,,,,,,0.2,ENSG00000188976,,,
+HNF1B,gene,,gwas,1.32e-08,,,,,,,0.2,ENSG00000275410,,,
+NR5A2,gene,,gwas,2.45e-10,,,,,,,0.2,ENSG00000116833,,,
+ABO,gene,,gwas,5.37e-08,,,,,,,0.2,ENSG00000175164,,,
+CLPTM1L,gene,,gwas,3.66e-07,,,,,,,0.2,ENSG00000049656,,,
+Jaundice,phenotype,,,,,,,,,,,,HP:0000952,,
+Abdominal pain,phenotype,,,,,,,,,,,,HP:0002027,,
+Weight loss,phenotype,,,,,,,,,,,,HP:0001824,,
+Diabetes mellitus,phenotype,,,,,,,,,,,,HP:0000819,,
+Steatorrhea,phenotype,,,,,,,,,,,,HP:0002570,,
+Extracellular matrix organization,pathway,,,,,,,,,,,,,R-HSA-1474244,
+O-linked glycosylation of mucins,pathway,,,,,,,,,,,,,R-HSA-913709,
+Signaling by ERBB4,pathway,,,,,,,,,,,,,R-HSA-1236394,
+Signaling by EGFR,pathway,,,,,,,,,,,,,R-HSA-177929,
+RAF/MAP kinase cascade,pathway,,,,,,,,,,,,,R-HSA-5673001,
+Cellular Senescence,pathway,,,,,,,,,,,,,R-HSA-2559583,
+Signaling by TGF-beta Receptor Complex,pathway,,,,,,,,,,,,,R-HSA-170834,
+Keratinization,pathway,,,,,,,,,,,,,R-HSA-6805567,
+Digestion of dietary lipid,pathway,,,,,,,,,,,,,R-HSA-192456,
+Sulfur amino acid metabolism,pathway,,,,,,,,,,,,,R-HSA-1614635,
+Signaling by FGFR2,pathway,,,,,,,,,,,,,R-HSA-5654738,
+daraxonrasib,drug,,,,,,,,,,,,,,"approved (PDAC, FDA Aug 2026)"
+sotorasib,drug,,,,,,,,,,,,,,approved (KRAS G12C NSCLC/CRC)
+erlotinib,drug,,,,,,,,,,,,,,"approved (PDAC, with gemcitabine)"
+afatinib,drug,,,,,,,,,,,,,,approved (EGFR-mutant NSCLC)
+neratinib,drug,,,,,,,,,,,,,,approved (HER2+ breast cancer)
+ensituximab,drug,,,,,,,,,,,,,,"investigational (phase 2, negative)"
+eprenetapopt,drug,,,,,,,,,,,,,,investigational
+rs13303010,variant,,,,,,,,,,,,,,
+rs4795218,variant,,,,,,,,,,,,,,
+rs3790844,variant,,,,,,,,,,,,,,
+rs505922,variant,,,,,,,,,,,,,,
+rs401681,variant,,,,,,,,,,,,,,
+Cholangiocarcinoma,disease,DOID:4947,,,,,,,,,,,,,
+FGFR2,gene,,related_disease,,,,,,,,0.8,ENSG00000066468,,,
+IDH1,gene,,related_disease,,,,,,,,0.8,ENSG00000138413,,,
+pemigatinib,drug,,,,,,,,,,,,,,approved (FGFR2-fusion CCA)
+futibatinib,drug,,,,,,,,,,,,,,approved (FGFR2-fusion iCCA)
+ivosidenib,drug,,,,,,,,,,,,,,approved (IDH1-mutant CCA)
+Chronic pancreatitis,disease,DOID:4989,,,,,,,,,,,,,
+PRSS1,gene,,related_disease,,,,,,,,0.2,ENSG00000204983,,,
+CFTR,gene,,related_disease,,,,,,,,0.8,ENSG00000001626,,,
+ivacaftor,drug,,,,,,,,,,,,,,approved (cystic fibrosis)
