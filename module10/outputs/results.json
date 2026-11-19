@@ -1,0 +1,315 @@
+{
+  "data": {
+    "train": 600,
+    "val": 400,
+    "test": 600,
+    "img_size": 128
+  },
+  "A_clean": {
+    "val_acc": 0.9625,
+    "test_acc": 0.95,
+    "tumour_recall": 0.9433,
+    "normal_recall": 0.9567,
+    "confusion": [
+      [
+        287,
+        13
+      ],
+      [
+        17,
+        283
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_acc": 0.8317,
+        "val_acc": 0.9575
+      },
+      {
+        "epoch": 2,
+        "train_acc": 0.9917,
+        "val_acc": 0.9675
+      },
+      {
+        "epoch": 3,
+        "train_acc": 1.0,
+        "val_acc": 0.9625
+      }
+    ]
+  },
+  "B_probe_tiles": [
+    {
+      "tile": 161,
+      "true": "tumour",
+      "pred": "tumour",
+      "P(tumour)": 0.997,
+      "gradcam_on_tissue": 0.9898,
+      "tissue_area": 0.9856,
+      "gradcam_on_border": 0.2378,
+      "occ_on_border": 0.3474,
+      "border_area": 0.3398,
+      "gradcam_vs_occ_spearman": -0.3745,
+      "pred_vs_other_class_cam_spearman": NaN
+    },
+    {
+      "tile": 302,
+      "true": "tumour",
+      "pred": "tumour",
+      "P(tumour)": 0.941,
+      "gradcam_on_tissue": 0.9377,
+      "tissue_area": 0.8835,
+      "gradcam_on_border": 0.3169,
+      "occ_on_border": 0.1477,
+      "border_area": 0.3398,
+      "gradcam_vs_occ_spearman": 0.4107,
+      "pred_vs_other_class_cam_spearman": NaN
+    },
+    {
+      "tile": 497,
+      "true": "tumour",
+      "pred": "tumour",
+      "P(tumour)": 0.979,
+      "gradcam_on_tissue": 0.9792,
+      "tissue_area": 0.9792,
+      "gradcam_on_border": 0.247,
+      "occ_on_border": 0.0815,
+      "border_area": 0.3398,
+      "gradcam_vs_occ_spearman": 0.4531,
+      "pred_vs_other_class_cam_spearman": NaN
+    },
+    {
+      "tile": 378,
+      "true": "tumour",
+      "pred": "tumour",
+      "P(tumour)": 0.997,
+      "gradcam_on_tissue": 0.9847,
+      "tissue_area": 0.9878,
+      "gradcam_on_border": 0.2657,
+      "occ_on_border": 0.0417,
+      "border_area": 0.3398,
+      "gradcam_vs_occ_spearman": 0.3218,
+      "pred_vs_other_class_cam_spearman": NaN
+    },
+    {
+      "tile": 9,
+      "true": "normal",
+      "pred": "normal",
+      "P(tumour)": 0.003,
+      "gradcam_on_tissue": 0.8714,
+      "tissue_area": 0.8665,
+      "gradcam_on_border": 0.2072,
+      "occ_on_border": 0.2587,
+      "border_area": 0.3398,
+      "gradcam_vs_occ_spearman": 0.6569,
+      "pred_vs_other_class_cam_spearman": NaN
+    },
+    {
+      "tile": 482,
+      "true": "normal",
+      "pred": "normal",
+      "P(tumour)": 0.033,
+      "gradcam_on_tissue": 0.8446,
+      "tissue_area": 0.8347,
+      "gradcam_on_border": 0.2267,
+      "occ_on_border": 0.0599,
+      "border_area": 0.3398,
+      "gradcam_vs_occ_spearman": 0.4265,
+      "pred_vs_other_class_cam_spearman": -0.4862
+    },
+    {
+      "tile": 98,
+      "true": "normal",
+      "pred": "normal",
+      "P(tumour)": 0.003,
+      "gradcam_on_tissue": 0.9272,
+      "tissue_area": 0.9529,
+      "gradcam_on_border": 0.2369,
+      "occ_on_border": 0.3969,
+      "border_area": 0.3398,
+      "gradcam_vs_occ_spearman": -0.323,
+      "pred_vs_other_class_cam_spearman": NaN
+    },
+    {
+      "tile": 389,
+      "true": "normal",
+      "pred": "normal",
+      "P(tumour)": 0.002,
+      "gradcam_on_tissue": 0.8881,
+      "tissue_area": 0.9082,
+      "gradcam_on_border": 0.1976,
+      "occ_on_border": 0.2881,
+      "border_area": 0.3398,
+      "gradcam_vs_occ_spearman": -0.3134,
+      "pred_vs_other_class_cam_spearman": NaN
+    }
+  ],
+  "B_probe_mean": {
+    "P(tumour)": 0.494,
+    "gradcam_on_tissue": 0.928,
+    "tissue_area": 0.925,
+    "gradcam_on_border": 0.242,
+    "occ_on_border": 0.203,
+    "border_area": 0.34,
+    "gradcam_vs_occ_spearman": 0.157,
+    "pred_vs_other_class_cam_spearman": -0.486
+  },
+  "B_stain_shift_test_acc": 0.92,
+  "C_confounder": {
+    "kind": "scale_bar",
+    "injected_class": "tumour",
+    "area_fraction": 0.0488,
+    "clean_model_baseline_gradcam_share_in_region": 0.0327
+  },
+  "C_confounded": {
+    "val_acc_with_artifact": 1.0,
+    "test_acc_clean": 0.6017,
+    "confusion_clean_test": [
+      [
+        298,
+        2
+      ],
+      [
+        237,
+        63
+      ]
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_acc": 0.9033,
+        "val_acc": 0.9925
+      },
+      {
+        "epoch": 2,
+        "train_acc": 1.0,
+        "val_acc": 0.9975
+      },
+      {
+        "epoch": 3,
+        "train_acc": 1.0,
+        "val_acc": 1.0
+      }
+    ]
+  },
+  "D1_tiles": [
+    {
+      "tile": 161,
+      "model": "confounded",
+      "pred": "tumour",
+      "gradcam_share_on_artifact": 0.123,
+      "occlusion_share_on_artifact": 0.5219
+    },
+    {
+      "tile": 161,
+      "model": "clean",
+      "pred": "tumour",
+      "gradcam_share_on_artifact": 0.0136,
+      "occlusion_share_on_artifact": 0.007
+    },
+    {
+      "tile": 302,
+      "model": "confounded",
+      "pred": "tumour",
+      "gradcam_share_on_artifact": 0.1295,
+      "occlusion_share_on_artifact": 0.5088
+    },
+    {
+      "tile": 302,
+      "model": "clean",
+      "pred": "tumour",
+      "gradcam_share_on_artifact": 0.0428,
+      "occlusion_share_on_artifact": 0.0172
+    },
+    {
+      "tile": 497,
+      "model": "confounded",
+      "pred": "tumour",
+      "gradcam_share_on_artifact": 0.1274,
+      "occlusion_share_on_artifact": 0.5355
+    },
+    {
+      "tile": 497,
+      "model": "clean",
+      "pred": "tumour",
+      "gradcam_share_on_artifact": 0.0041,
+      "occlusion_share_on_artifact": 0.1512
+    },
+    {
+      "tile": 378,
+      "model": "confounded",
+      "pred": "tumour",
+      "gradcam_share_on_artifact": 0.1298,
+      "occlusion_share_on_artifact": 0.5237
+    },
+    {
+      "tile": 378,
+      "model": "clean",
+      "pred": "tumour",
+      "gradcam_share_on_artifact": 0.0094,
+      "occlusion_share_on_artifact": 0.0265
+    }
+  ],
+  "D1_mean_share": {
+    "clean": {
+      "gradcam_share_on_artifact": 0.0175,
+      "occlusion_share_on_artifact": 0.0505
+    },
+    "confounded": {
+      "gradcam_share_on_artifact": 0.1274,
+      "occlusion_share_on_artifact": 0.5225
+    }
+  },
+  "D_battery": {
+    "confounded model": {
+      "tumour_recall_artifact_removed": 0.21,
+      "tumour_recall_artifact_present": 1.0,
+      "normals_called_tumour_no_artifact_%": 0.6666666666666667,
+      "normals_called_tumour_with_artifact_%": 93.66666666666667,
+      "flip_rate_%": 93.6241610738255,
+      "flipped / eligible": "279/298",
+      "mean_P(tumour)_shift_on_normals": 0.8667753338813782
+    },
+    "clean control": {
+      "tumour_recall_artifact_removed": 0.9433333333333334,
+      "tumour_recall_artifact_present": 0.96,
+      "normals_called_tumour_no_artifact_%": 4.333333333333334,
+      "normals_called_tumour_with_artifact_%": 5.666666666666666,
+      "flip_rate_%": 2.4390243902439024,
+      "flipped / eligible": "7/287",
+      "mean_P(tumour)_shift_on_normals": 0.01574905402958393
+    }
+  },
+  "D_dose_response_%normals_called_tumour": {
+    "strengths": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "confounded model": [
+      0.6666666666666667,
+      0.6666666666666667,
+      8.0,
+      68.66666666666667,
+      93.66666666666667
+    ],
+    "clean control": [
+      4.333333333333334,
+      4.333333333333334,
+      5.333333333333334,
+      5.333333333333334,
+      5.666666666666666
+    ]
+  },
+  "config": {
+    "seed": 0,
+    "epochs": 3,
+    "img_size": 128,
+    "lr": 0.0001,
+    "batch": 32,
+    "monai": "1.6.1",
+    "torch": "2.15.0+cpu"
+  }
+}
